@@ -1,0 +1,39 @@
+{
+  "name": "@jbutz/aws-cfn-rollback-exercise",
+  "version": "1.0.0",
+  "bin": {
+    "cfn-exercise": "bin/cfn-exercise.js"
+  },
+  "license": "ISC",
+  "author": {
+    "name": "Jason Butz",
+    "url": "https://jasonbutz.info"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "@types/aws-lambda": "^8.10.143",
+    "@types/node": "20.14.9",
+    "aws-cdk": "2.153.0",
+    "esbuild": "^0.23.1",
+    "eslint": "^9.9.0",
+    "globals": "^15.9.0",
+    "ts-node": "^10.9.2",
+    "typescript": "~5.5.3",
+    "typescript-eslint": "^8.2.0"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "2.153.0",
+    "constructs": "^10.0.0",
+    "source-map-support": "^0.5.21"
+  },
+  "optionalDependencies": {
+    "prettier": "^3.3.3"
+  },
+  "prettier": {
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "tabWidth": 2,
+    "printWidth": 80
+  }
+}
