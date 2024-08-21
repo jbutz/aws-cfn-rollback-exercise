@@ -9,6 +9,13 @@
     "name": "Jason Butz",
     "url": "https://jasonbutz.info"
   },
+  "scripts": {
+    "boostrap": "cdk bootstrap",
+    "deploy": "cdk deploy",
+    "format": "prettier --write \"./**/*.{ts,mjs,json,md}\"",
+    "lint": "eslint \"**/*.{js,mjs,cjs,ts}\" --ignore-pattern cdk.out",
+    "clean": "rm -r cdk.out node_modules"
+  },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
     "@types/aws-lambda": "^8.10.143",
